@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--=============== FAVICON ===============-->
+        <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+
+        <!--=============== BOXICONS ===============-->
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <title>Moose & Maple Restaurant</title>
+    </head>
+    <body>
+        <!--==================== HEADER ====================-->
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav-logo">
+                    M & M
+                </a>
+
+                <div class="nav-menu" id="nav-menu-id">
+                    <ul class="nav-list">
+                        <li class="nav-item">
+                            <a href="#home" class="nav-link">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#menu" class="nav-link">Menu</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#premium" class="nav-link">Premium</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#blog" class="nav-link">Blog</a>
+                        </li>
+                    </ul>
+                    <div class="nav-close" id="nav-close-id">
+                        <i class='bx bx-x'></i>
+                    </div>
+                </div>
+                <!-- Toggle button -->
+                <div class="nav-toggle" id="nav-toggle-id">
+                    <i class='bx bx-grid-alt'></i>
+                </div>
+            </nav>
+        </header>
+
+        <!--==================== MAIN ====================-->
+        <main>
+            <!--==================== HOME ====================-->
+            <section class="home grid" id="home">
+                <div class="home-container">
+                    <div class="home-content container">
+                        <h1 class="home-title">
+                            Moose<br>& Maple<span>.</span>
+                        </h1>
+                        <p class="home-description">
+                            Taste the North.
+                        </p>
+                        <div class="home-data">
+                            <div class="home-data-group">
+                                <h2 class="home-data-number">10K+</h2>
+                                <h3 class="home-data-title">5 Star Reviews</h3>
+                                <p class="home-data-description">
+                                    5 star reviews from over 10,000 customers.
+                                </p>
+                            </div>
+                            <div class="home-data-group">
+                                <h2 class="home-data-number">20+</h2>
+                                <h3 class="home-data-title">Menu Items</h3>
+                                <p class="home-data-description">
+                                    Culinary chefs using quality ingredients.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <img src="assets/img/home2.png" alt="" class="home-img">
+            </section>
+
+            <!--==================== SPECIALTY ====================-->
+            <div class="specialty section container" id="specialty">
+                <div class="speciality-container">
+                    <div class="specialty-box">
+                        <h2 class="section-title">
+                            Explore the flavours of Canada
+                        </h2>
+                        <div>
+                            <a href="#" class="button speciality-button">See more</a>
+                        </div>
+                    </div>
+                    <div class="specialty-category">
+                        <div class="specialty-group specialty-line">
+                            <img src="assets/img/breakfast.png" alt="" class="specialty-img">
+                            <h3 class="specialty-title">Breakfast Menu</h3>
+                            <p class="specialty-description">Indulge in a luxurious morning experience</p>
+                        </div>
+                        <div class="specialty-group specialty-line">
+                            <img src="assets/img/lunch.png" alt="" class="specialty-img">
+                            <h3 class="specialty-title">Lunch Menu</h3>
+                            <p class="specialty-description">Savor refined flavors with our lunch menu</p>
+                        </div>
+                        <div class="specialty-group specialty-line">
+                            <img src="assets/img/dinner.png" alt="" class="specialty-img">
+                            <h3 class="specialty-title">Dinner Menu</h3>
+                            <p class="specialty-description">Embark on a culinary journey with indulgent main courses</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--==================== PRODUCTS ====================-->
+            <section class="products section" id="menu">
+                <div class="products-container container">
+                    <h2 class="section-title">
+                        See our featured mains & desserts
+                    </h2>
+                    <ul class="products-filters">
+                        <li class="products-item products-line active-product" data-filter=".mains">
+                            <h3 class="products-title">Mains</h3>
+                            <span class="products-stock">3 products</span>
+                        </li>
+                        <li class="products-item products-line" data-filter=".desserts">
+                            <h3 class="products-title">Desserts</h3>
+                            <span class="products-stock">3 products</span>
+                        </li>
+                    </ul> 
+                    <div class="products-content grid">
+
+                        <!--==================== MAIN MENU ====================-->
+                        <article class="products-card mains">
+                            <div class="products-shape">
+                                <img src="assets/img/main1.png" alt="Steak & Fries" class="products-img"></img>
+                            </div>
+                            <div class="products-data">
+                                <h2 class="products-price">$50</h2>
+                                <h3 class="products-name">Grain Fed Beef</h3>
+
+                                <button class="button products-button">
+                                    <i class='bx bx-shopping-bag'></i>
+                                </button>
+                            </div>
+                        </article>
+                        <article class="products-card mains">
+                            <div class="products-shape">
+                                <img src="assets/img/main2.png" alt="Salmon & Veggies" class="products-img"></img>
+                            </div>
+                            <div class="products-data">
+                                <h2 class="products-price">$35</h2>
+                                <h3 class="products-name">Atlantic Salmon</h3>
+
+                                <button class="button products-button">
+                                    <i class='bx bx-shopping-bag'></i>
+                                </button>
+                            </div>
+                        </article>
+                        <article class="products-card mains">
+                            <div class="products-shape">
+                                <img src="assets/img/main3.png" alt="" class="products-img"></img>
+                            </div>
+                            <div class="products-data">
+                                <h2 class="products-price">$20</h2>
+                                <h3 class="products-name">Gourmet Burger</h3>
+                                <button class="button products-button">
+                                    <i class='bx bx-shopping-bag'></i>
+                                </button>
+                            </div>
+                        </article>
+
+                        <!--==================== DESSERTS ====================-->
+                        <article class="products-card desserts">
+                            <div class="products-shape">
+                                <img src="assets/img/dessert1.png" alt="" class="products-img"></img>
+                            </div>
+                            <div class="products-data">
+                                <h2 class="products-price">$12</h2>
+                                <h3 class="products-name">Chocolate Crepes</h3>
+                                <button class="button products-button">
+                                    <i class='bx bx-shopping-bag'></i>
+                                </button>
+                            </div>
+                        </article>
+                        <article class="products-card desserts">
+                            <div class="products-shape">
+                                <img src="assets/img/dessert2.png" alt="" class="products-img"></img>
+                            </div>
+                            <div class="products-data">
+                                <h2 class="products-price">$10</h2>
+                                <h3 class="products-name">Apple Pie</h3>
+                                <button class="button products-button">
+                                    <i class='bx bx-shopping-bag'></i>
+                                </button>
+                            </div>
+                        </article>
+                        <article class="products-card desserts">
+                            <div class="products-shape">
+                                <img src="assets/img/dessert3.png" alt="" class="products-img"></img>
+                            </div>
+                            <div class="products-data">
+                                <h2 class="products-price">$8</h2>
+                                <h3 class="products-name">Buttery Croissant</h3>
+                                <button class="button products-button">
+                                    <i class='bx bx-shopping-bag'></i>
+                                </button>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== QUALITY ====================-->
+            <section class="quality section" id="premium">
+                <div class="quality-container container">
+                    <h2 class="section-title">
+                        Our Premium Kit is back!
+                    </h2>
+
+                    <div class="quality-content grid">
+                        <div class="quality-images">
+                            <img src="assets/img/quality-img1.png" alt="" class="quality-img-big">
+                            <img src="assets/img/quality-img2.png" alt="" class="quality-img-small">
+                        </div>
+
+                        <div class="quality-data">
+                            <h1 class="quality-title">Premium Kit</h1>
+                            <h2 class="quality-price">$95.99</h2>
+                            <span class="quality-special">Special Price</span>
+                            <p class="quality-description">
+                                Savor our premium kit, complete with two steaks, potatoes, and seasonal vegetables. Elevate your dining experience with this popular bundle for a delicious dinner at home.
+                            </p>
+                            <div class="quality-buttons">
+                                <button class="button">
+                                    Buy Now
+                                </button>
+
+                                <a href="#" class="quality-button">
+                                    See more
+                                    <i class="bx bx-right-arrow-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== BLOG ====================-->
+            <section class="blog section" id="blog">
+                <div class="blog-container container">
+                    <h2 class="section-title">
+                        Trending Blogs
+                    </h2>
+                    <div class="blog-content grid">
+                        <article class="blog-card">
+                            <div class="blog-image">
+                                <img src="assets/img/maple-syrup.png" alt="" class="blog-img">
+                                <a href="#" class="blog-button">
+                                    <i class="bx bx-right-arrow-alt"></i>
+                                </a>
+                            </div>
+                            <div class="blog-data">
+                                <h2 class="blog-title">
+                                    The History of Canadian Maple Syrup
+                                </h2>
+                                <p class="blog-description">
+                                    The history of Canadian maple syrup is closely tied to the indigenous peoples of North America.
+                                </p>
+                                <div class="blog-footer">
+                                    <div class="blog-reaction">
+                                        <i class="bx bx-comment"></i>
+                                        <span>45</span>
+                                    </div>
+                                    <div class="blog-reaction">
+                                        <i class="bx bx-show"></i>
+                                        <span>18K</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="blog-card">
+                            <div class="blog-image">
+                                <img src="assets/img/poutine.png" alt="" class="blog-img">
+                                <a href="#" class="blog-button">
+                                    <i class="bx bx-right-arrow-alt"></i>
+                                </a>
+                            </div>
+                            <div class="blog-data">
+                                <h2 class="blog-title">
+                                    10 DIY Poutine Recipes
+                                </h2>
+                                <p class="blog-description">
+                                    Poutine is a beloved Canadian dish traditionally made with French fries, cheese curds, and gravy.
+                                </p>
+                                <div class="blog-footer">
+                                    <div class="blog-reaction">
+                                        <i class="bx bx-comment"></i>
+                                        <span>120</span>
+                                    </div>
+                                    <div class="blog-reaction">
+                                        <i class="bx bx-show"></i>
+                                        <span>25K</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!--==================== FOOTER ====================-->
+        <footer class="footer">
+            <div class="footer-container container">
+                <h1 class="footer-title">Moose & Maple.</h1>
+                <div class="footer-content grid">
+                    <div class="footer-data">
+                        <p class="footer-description">
+                            Subscribe to our newsletter
+                        </p>
+                        <div class="footer-newsletter">
+                            <input type="email" placeholder="Your email address" class="footer-input">
+                            <button class="footer-button">
+                                <i class="bx bx-right-arrow-alt"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="footer-data">
+                        <h2 class="footer-subtitle">Contact</h2>
+                        <p class="footer-information">
+                            +6474879999 <br>
+                            mooseandmaple@info.ca
+                        </p>
+                    </div>
+                    <div class="footer-data">
+                        <h2 class="footer-subtitle">Hours</h2>
+                        <p class="footer-information">
+                            9 AM - 12 AM <br>
+                            9 AM - 12 AM
+                        </p>
+                    </div>
+                    <div class="footer-data">
+                        <h2 class="footer-subtitle">Locations</h2>
+                        <p class="footer-information">
+                            Toronto <br>
+                            Vancouver <br>
+                        </p>
+                    </div>
+                </div>
+                <div class="footer-group">
+                    <ul class="footer-social">
+                        <a href="https://facebook.com" target="_blank" class="footer-social-link">
+                            <i class="bx bxl-facebook"></i>
+                        </a>
+                        <a href="https://instagram.com" target="_blank" class="footer-social-link">
+                            <i class="bx bxl-instagram"></i>
+                        </a>
+                        <a href="https://twitter.com" target="_blank" class="footer-social-link">
+                            <i class="bx bxl-twitter"></i>
+                        </a>
+                    </ul>
+                    <span class="footer-copy">
+                        &#169; Anthony Galea. All rights reserved.
+                    </span>
+                </div>
+            </div>
+        </footer>
+
+        <!--========== SCROLL UP ==========-->
+        <a href="#" class="scrollup" id="scrollup-id">
+            <i class="bx bx-up-arrow-alt"></i>
+        </a>
+
+        <!--=============== MIXITUP FILTER ===============-->
+        <script src="assets/js/mixitup.min.js"></script>
+
+        <!--=============== MAIN JS ===============-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
